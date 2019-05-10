@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+body {
+  margin: 0;
+  background: #eaebed;
+  font-family: 'Share Tech Mono', monospace;
+  font-color: #898989;
+}
+
+.entire
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container
+{
+  position: relative;
+  width: 100%;
+  /*margin-left: 80px;
+  margin-top: 100px;*/
+}
+
+.leftside
+{
+  margin-left: 100px;
+}
+
+.rightside
+{
+  margin-right: 80px;
+  margin-top: -100px;
+}
+
+/*div
+{
+  background: transparent;
+  width: 0;
+  height:0;
+}*/
+
+
+/*@keyframes shake {
+  0%{transform:translate(1px, 1px)rotate(0deg);}
+  10%{transform:translate(-1px, -2px)rotate(-1deg);}
+  20%{transform:translate(-3px, 0px)rotate(1deg);}
+  30%{transform:translate(3px, 2px)rotate(0deg);}
+  40%{transform:translate(1px, -1px)rotate(1deg);}
+  50%{transform:translate(-1px, 2px)rotate(-1deg);}
+  60%{transform:translate(-3px, 1px)rotate(0deg);}
+  80%{transform:translate(3px, 1px)rotate(-1deg);}
+  90%{transform:translate(-1px, 2px)rotate(0deg);}
+  100%{transform:translate(1px, -2px)rotate(-1deg);}
+}*/
+
+img
+{
+  width: 80px;
+  height: 80px;
+  opacity: 0.9;
+ 
+  z-index: 1000;
+
+  
+}
+
+#garbageCan
+{
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  /*filter: drop-shadow(10px 130px 30px rgba(255,255,255, 0.6));*/
+  
+}
+
+#metal{
+  position: absolute;
+  /*width: 150px;*/
+  /*height: 150px;*/
+  /* right: 100px; */
+
+  top: 32%;
+  left: 44%;
+  animation: 0.8s shake infinite alternate;
+}
+
+#pet1{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  animation: 0.8s shake infinite alternate;
+  
+}
+
+#pet2{
+  position: absolute;
+  top: 5%;
+  left: 48%;
+  animation: 0.8s shake infinite alternate;
+
+  
+}
+#plasticbag{
+  position: absolute;
+  /* top: 100px; */
+  top: 22%;
+  left: 39%;
+  animation: 0.8s shake infinite alternate;
+  
+  
+  
+}
+
+#battery{
+  position: absolute;
+  top: 38%;
+  left: 28%;
+  animation: 0.8s shake infinite alternate;
+ 
+  
+}
+
+#magazine{
+  position: absolute;
+  top: 28%;
+  left: 20%;
+  animation: 0.8s shake infinite alternate;
+  /* top: 220px; */
+ 
+}
+#newspaper{
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  animation: 0.8s shake infinite alternate;
+  
+  
+}
+#mail{
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  animation: 0.8s shake infinite alternate;
+ 
+  
+}
+#paperbag{
+  position: absolute;
+  top: 20%;
+  left: 58%;
+  animation: 0.8s shake infinite alternate;
+  
+  
+  
+} 
+
+h1.guide
+{
+ 
+  font-size: 20px;
+  color: black;
+  
+
+}
+
+.header
+{
+  
+  font-size: 50px;
+  color: black;
+  letter-spacing: -2px;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+
+h3
+{
+  font-size: 50px;
+  color: black;
+  letter-spacing: -2px;
+  
+}
+
+li.list{
+  font-size: 15px;
+  color: black;
+  letter-spacing: 0px;
+  display: block;
+  width: 300px;
+  text-align: left;
+  font-weight: lighter;
+}
+
+h4
+{
+  font-size: 50px;
+  color: black;
+  letter-spacing: -2px;
+  
+}
+h5
+{
+  font-size: 50px;
+  color: black;
+  letter-spacing: -2px;
+
+}
+h6
+{
+  font-size: 50px;
+  color: black;
+  letter-spacing: -2px;
+ 
+  
+  
+}
+h1
+{
+  font-size: 50px;
+  color: black;
+  letter-spacing: -2px;
+ 
+  
+}
+#right
+{
+  width: 500px;
+
+}
+
+.draggable
+        {
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+        }
+
+.dropped
+        {
+            position: static !important;
+        }
+
+div.anmation
+{
+  animation: 1s shake infinite alternate;
+}
+
+@keyframes shake
+{
+  0%{
+    transform: skewY(-1deg);
+    transform: skewX(-1deg);
+  }
+   10%{
+    transform: skewY(1deg);
+    transform: skewX(1deg);
+  }
+   20%{
+    transform: skewY(-1deg);
+    transform: skewX(-1deg);
+  }
+   30%{
+    transform: skewY(1deg);
+    transform: skewX(1deg);
+  }
+   40%{
+    transform: skewY(-1deg);
+    transform: skewX(-1deg);
+  }
+  50%{
+    transform: skewY(1deg);
+    transform: skewX(1deg);
+  }
+  60%{
+    transform: skewY(-1deg);
+    transform: skewX(-1deg);
+  }
+  70%{
+    transform: skewY(1deg);
+    transform: skewX(1deg);
+  }
+  80%{
+    transform: skewY(-1deg);
+    transform: skewX(-1deg);
+  }
+  90%{
+    transform: skewY(1deg);
+    transform: skewX(1deg);
+  }
+  100%{
+    transform: skewY(-1deg);
+    transform: skewX(-1deg);
+  }
+   
+}
+

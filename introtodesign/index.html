@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="sketch.js"></script>
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+    integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".container").draggable();
+    });
+  </script>
+</head>
+
+<body>
+
+
+
+  <h2 class="header">What We Recycle?</h2>
+
+  <div class="entire">
+
+    <div class="leftside">
+
+      <h2 class="list1">Metal </h2>
+      <li class="list list1">metal cans (soup, pet food, empty aerosol cans, empty paint cans, etc.)
+        aluminum foil and foil products (wrap and trays)
+        metal caps and lids
+        household metal items (wire hangers, pots, tools, curtain rods, small appliances that are mostly metal, certain
+        vehicle license plates, etc.)
+        bulky metal items (large metal items, such as furniture, cabinets, large mostly metal appliances, DOES NOT
+        INCLUDE electronic devices banned from disposal)</li>
+
+      <h2 class="list2">Plastic </h2>
+      <li class="list list2">
+        plastic bottles, jugs, and jars
+        rigid plastic caps and lids
+        rigid plastic food containers (yogurt, deli, hummus, dairy tubs, cookie tray inserts, “clamshell” containers,
+        other rigid plastic take-out containers)
+        rigid plastic non-food containers (such as “blister-pack” and “clamshell” consumer packaging, acetate boxes)
+        rigid plastic housewares (flower pots, mixing bowls, plastic appliances, etc.)
+        bulk rigid plastic (crates, buckets, pails, furniture, large toys, large appliances, etc.)
+        Note: Rigid plastic is any item that is mostly plastic resin—it is relatively inflexible and maintains its shape
+        or form when bent.</li>
+
+
+    </div>
+
+    <div class="container middle" id="image">
+
+      <img id="garbageCan" src="garbageCan-cropped.png" ondragover="return false" ondrop="drop(this, event);">
+      <img id="metal" src="metal-cropped.png" ondragstart="drag(this, event);">
+      <img id="pet1" src="bottle-cropped.png" ondragstart="drag(this, event);">
+      <img id="plasticbag" src="plasticbag-cropped.png" ondragstart="drag(this, event);">
+      <img id="battery" src="battery-cropped.png">
+      <img id="magazine" src="magazine-cropped.png" ondragstart="drag(this, event);">
+      <img id="pet2" src="bottle2-cropped.png" ondragstart="drag(this, event);">
+      <img id="newspaper" src="newspaper-cropped.png" ondragstart="drag(this, event);">
+      <img id="mail" src="mail-cropped.png" ondragstart="drag(this, event);">
+      <img id="paperbag" src="paperbag-cropped.png" ondragstart="drag(this, event);">
+    
+
+
+    </div>
+
+    <div class="rightside">
+      <h2 class="list3">Paper</h2>
+      <li class="list list3" id="right">
+        newspapers, magazines, catalogs, phone books, mixed paper
+        white and colored paper (lined, copier, computer; staples are ok)
+        mail and envelopes (any color; window envelopes are ok)
+        receipts
+        paper bags (handles ok)
+        wrapping paper
+        soft-cover books (phone books, paperbacks, comics, etc.; no spiral bindings) (schools should follow their school
+        book recycling procedures)</li>
+
+      <h2 class="list4">Cardboard </h2>
+      <li class="list list4" id="right">
+        cardboard egg cartons
+        cardboard trays
+        smooth cardboard (food and shoe boxes, tubes, file folders, cardboard from product packaging)
+        pizza boxes (remove and discard soiled liner; recycle little plastic supporter with rigid plastics)
+        paper cups (waxy lining ok if cups are empty and clean; recycle plastic lids with rigid plastics)
+        corrugated cardboard boxes (flattened and tied together with sturdy twine)
+      </li>
+
+      <h2 class="list5">Not Accepted </h2>
+      <li class="list list4" id="right">
+        Paper with heavy wax or plastic coating (candy wrappers, take-out and freezer containers, etc.)
+        Soiled or soft paper (napkins, paper towels, tissues)
+        Hardcover books (schools should follow their school book recycling procedures)
+        Batteries
+        Electronic devices banned from disposal
+        Printer cartridges
+        Glass items other than glass bottles and jars (such as mirrors, light bulbs, ceramics, and glassware)
+        Window blinds
+        Foam plastic items (such as foam food service containers, cups and trays, foam protective packing blocks, and,
+        and foam packing peanuts)
+        Flexible plastic items (such as single-serve food and drink squeezable pouches and tubes such as toothpaste,
+        lotion, cosmetics, or sports balls such as basketballs, bowling balls, soccer balls, footballs, yoga balls)
+        Film plastic (such as plastic shopping bags and wrappers.) Bring plastic bags and film to participating stores
+        for recycling
+        Cigarette lighters and butane gas lighters
+        Cassette and VHS tapes
+        Pens and markers
+        “Tanglers” (such as cables, wires, cords, hoses)
+        Rigid plastic containers containing medical “sharps” or disposable razors
+        Containers that held dangerous or corrosive chemicals
+      </li>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
